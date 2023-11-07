@@ -132,3 +132,22 @@ body {
     text-align: center;
     color: #5b6572;
 }
+
+.section.three {
+    background-color: #e5e7eb;
+    padding: 48px 124px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section.three .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.section.three .quote-source {
+    text-align: end;
+    font-weight: bold;
+}
