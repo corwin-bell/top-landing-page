@@ -90,3 +90,45 @@ body {
     color: #e5e7eb;
     flex: 1;
 }
+
+.section.two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 124px;
+    gap: 24px;
+}
+
+.section.two .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.section.two .container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-container .card {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+  }
+
+.card-container .card-subtext {
+    width: 150px;
+    text-align: center;
+    color: #5b6572;
+}
