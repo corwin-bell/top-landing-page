@@ -26,10 +26,15 @@ body {
     background-color: #3882f6;
     color: #f9faf8;
     width: fit-content;
+    height: fit-content;
     border-style: none;
     border-radius: 4px;
     padding: 4px 24px;
-    flex-grow: 0;
+    /* flex-grow: 0; */
+  }
+
+  .card {
+    border-radius: 8px;
   }
 
   .header, .section {
@@ -88,7 +93,8 @@ body {
     background: #6c747d;
     text-align: center;
     color: #e5e7eb;
-    flex: 1;
+    width: 400px;
+    height: 200px;
 }
 
 .section.two {
@@ -122,7 +128,6 @@ body {
 .card-container .card {
     border-style: solid;
     border-color: #3882f6;
-    border-radius: 8px;
     width: 150px;
     height: 150px;
   }
@@ -150,4 +155,35 @@ body {
 .section.three .quote-source {
     text-align: end;
     font-weight: bold;
+}
+
+.section.four {
+    padding: 36px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section.four .card {
+    background-color: #3882f6;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: end;
+}
+
+.card-text .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.card-text .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.section.four .card button {
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
 }
