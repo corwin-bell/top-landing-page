@@ -115,7 +115,8 @@ body {
 .section.two .container {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 36px;
+    flex-wrap: wrap;
 }
 
 .card-container {
@@ -166,7 +167,7 @@ body {
 
 .section.four .card {
     background-color: #3882f6;
-    padding: 24px 48px;
+    padding: 24px 72px;
     display: flex;
     justify-content: space-between;
     gap: 16px;
